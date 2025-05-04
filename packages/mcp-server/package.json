@@ -1,0 +1,30 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "packageManager": "pnpm@9.10.0",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@mcp/logger": "workspace:*",
+    "dotenv": "^16.4.5",
+    "fastmcp": "^1.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.4.5",
+    "vitest": "^3.1.1"
+  },
+  "files": [
+    "build"
+  ]
+}
