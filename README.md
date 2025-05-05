@@ -2,6 +2,9 @@
 
 This project provides a server that integrates with a Langchain wrapper to interact with the Hedera network. It allows users to perform Hedera operations through natural language commands facilitated by the Langchain setup.
 
+## ⚠️ Attention
+Since the current version on the `master` branch was moved from another repository, it temporarily includes the `hedera-agent-kit` package, which hasn't been officially released yet. Therefore, it is included as a dependency pulled from GitHub.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
